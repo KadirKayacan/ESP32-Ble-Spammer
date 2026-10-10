@@ -34,8 +34,8 @@ Bu proje; **BLE güvenliği farkındalığı**, **GAP (Generic Access Profile) r
 ## Kurulum
 
 ```bash
-git clone https://github.com/USERNAME/esp32-ble-spammer.git
-cd esp32-ble-spammer
+git clone https://github.com/KadirKayacan/ESP32-Ble-Spammer.git
+cd ESP32-Ble-Spammer
 
 # PlatformIO kullanıyorsan:
 pio run --target upload
@@ -99,24 +99,21 @@ Her cihaz isminin ekranda ne kadar süre kaldığını `delay(300)` değerini de
 ## Proje Yapısı
 
 ```text
-esp32-ble-spammer/
+ESP32-Ble-Spammer/
 ├── src/
 │   └── main.cpp          # Ana uygulama (isim listesi + BLE reklam enjeksiyonu)
 ├── platformio.ini        # PlatformIO yapılandırması
-├── requirements.txt      # (Boş / yalnızca geliştirme araçları)
 ├── README.md
 ├── .gitignore
-└── LICENSE
 ```
 
 Arduino IDE kullanıyorsan dosya yapısı şu şekilde olur:
 
 ```text
-esp32-ble-spammer/
+ESP32-Ble-Spammer/
 ├── esp32_ble_spammer.ino
 ├── README.md
 ├── .gitignore
-└── LICENSE
 ```
 
 ## Teknik Detaylar
